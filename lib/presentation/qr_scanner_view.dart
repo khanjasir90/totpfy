@@ -3,10 +3,6 @@ import 'package:qr_code_scanner_plus/qr_code_scanner_plus.dart';
 
 import '../core/storage/storage_service.dart';
 
-/*
-otpauth://totp/GitHub:khanjasir90?secret=JV3XEATNO2YSIIVN&issuer=GitHub
-*/
-
 class QrScannerView extends StatefulWidget {
   const QrScannerView({super.key, required this.storageService});
 
